@@ -1,0 +1,152 @@
+/* = miscellanous */
+.container_24{
+	margin-top: 10px;
+}
+p{
+	font-size: 13px;
+	line-height: 20px;
+	color: #353535;
+}
+
+a {
+	color: #7e7e7e;
+	text-decoration: none;
+}
+
+a:hover, .selected{
+	color: black;
+}
+blockquote, blockquote p{
+	font-size: 15px;
+	line-height: 20px;
+	font-style: italic;
+	color: #0e0e0e;
+	padding-top: 10px;
+}
+blockquote{
+	position: relative;
+}
+
+ /* =header */
+ header {
+ 	overflow: hidden;
+ }
+ header h1 {
+ 	background: url(../images/logo1.png) no-repeat;
+ 	text-indent: -9999px;
+ 	width: 174px;
+ 	height: 23px;
+ 	margin: 10px 10px 0px 10px;
+ 	float: left;
+ }
+
+
+/*h2{
+	letter-spacing: -1px;
+	font-size: 26px;
+	text-transform: lowercase;
+	border-bottom: 1px solid #d1d1d1;
+	padding-bottom: 20px;
+	margin-bottom: 15px;
+}*/
+ /* =nav */
+
+ nav li {
+	display: inline;
+	float: right;
+	padding-bottom: 15px;
+	margin-left: 20px;
+ }
+
+ /* =banner */
+ .banner h3{
+ 	font-style:lowercase;
+ 	color: white;
+ 	font-size: 28px;
+ 	background: #3d3f33;
+ 	opacity: 0.7;
+ 	width: 480px;
+ 	margin-top: -127px
+ 	
+ }
+ .banner {
+	/*background: url(../images/city-bg.jpg) no-repeat;*/
+	width: 687px;
+	height: 231px;
+}
+.black{
+	background: black;
+	height: 231px;
+}
+
+#image{
+	width: 670px;
+	height: 231px;
+}
+/*.grid_9{
+	background: red;
+}
+.container_24{
+	background: green;
+}*/
+/*.grid_6{
+	background: orange;
+}*/
+/*.banner{
+	background: red;
+}*/
+
+/* =main */
+.main{
+	margin-top: 60px;
+}
+.main blockquote p{
+	padding-left: 20px;
+}
+.main blockquote p:first-child:before {
+	content: '“';
+	color:#bfbfbf;
+	font-size: 40px;	
+	position: absolute;
+	top:5px; 
+	left:-3px;
+}
+.main blockquote p:last-child:after {
+	content: '”';
+	color:#bfbfbf;
+	font-size: 40px;
+	float: right;	
+	position: absolute;
+	bottom: -20px; 
+	right: 17px;
+}
+/* =botton */
+.botton{
+	background: #242324;
+	padding: 4px;
+	color: white;
+	font-size: 11px;
+	text-transform: uppercase;
+}
+.botton:hover{
+	background: black;
+	color: white;
+}
+
+/* =footer*/
+.container_24 footer{
+	clear: both;
+	margin-top: 50px;
+	border-top: 1px solid #d1d1d1;
+}
+
+/* =work */
+.work h2 {
+	font-size: 26px;
+	margin-bottom: 0;
+	border-bottom: none;
+	font-weight: 0;
+}
+.work img{
+	margin-bottom: 20px;
+}
